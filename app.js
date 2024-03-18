@@ -15,7 +15,7 @@ form.addEventListener("submit", (e) => {
 
   input.value = "";
 
-  const music = new Audio("./music.mp3");
+  const music = new Audio("./music/music.mp3");
   music.play();
 });
 
